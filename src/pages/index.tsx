@@ -1,4 +1,4 @@
-import { SIframeContainer, SVideoPlayer, SWellcome, SWrapper } from './styled'
+import { SIframeContainer, SVideoPlayer, SWellcome, SWrapper } from '../styled'
 
 const Home = () => {
   return (

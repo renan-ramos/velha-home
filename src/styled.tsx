@@ -3,13 +3,24 @@ import styled from 'styled-components'
 export const SWrapper = styled.main`
     margin: 0 auto;
     padding: 15px;
+    max-width: 1024px;
     width: 100%;
     height: 100%;
+    background-color: #111;
+    box-shadow: 0 0 9px 12px rgba(0, 0, 0, 0.5);
 `
 
 export const SWellcome = styled.header`
     color: #fff;
-    padding: 15px 0;
+    padding: 30px 0;
+
+    h1 { 
+        font-size: 2.5em;
+    }
+
+    h2 { 
+        font-size: 2em;
+    }
 `
 
 export const SVideoPlayer = styled.iframe`
